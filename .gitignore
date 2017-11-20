@@ -1,0 +1,27 @@
+!.gitignore
+
+# PhpStorm
+.idea
+
+# PHP libraries
+/vendor
+/bin
+
+# Vagrant files
+.vagrant
+.vagrantuser
+
+# Deployment cache/temp stuff
+/ansible/*.retry
+/ansible/roles/*
+!/ansible/roles/sysops
+!/ansible/roles/financial-reporting
+
+# Log files
+/log
+
+# Twig Cache
+/cache
+
+# phpUnit
+/phpunit.xml
